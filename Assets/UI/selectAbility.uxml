@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/UI_Style.uss?fileID=7433441132597879392&amp;guid=b97e68543804d6345a40e5b7d4541c03&amp;type=3#UI_Style" />
+    <ui:VisualElement style="top: auto; width: 100%; height: 100%; align-items: center;">
+        <ui:Button display-tooltip-when-elided="true" name="full" style="width: 100%; height: 100%; align-items: center; background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);">
+            <ui:VisualElement name="RootElement" style="top: 45%; height: 30%; align-items: center; width: 80%; flex-direction: row; justify-content: space-around;">
+                <ui:Button display-tooltip-when-elided="true" name="infinite" class="Button" style="background-image: url(&apos;project://database/Assets/UI/images/shop/4.png?fileID=2800000&amp;guid=d8d0eb8078299474ba1e606af57834d5&amp;type=3#4&apos;); width: 20%; height: 40%;" />
+                <ui:Button display-tooltip-when-elided="true" name="reduce" class="Button" style="background-image: url(&apos;project://database/Assets/UI/images/shop/5.png?fileID=2800000&amp;guid=6c6610bd79f460747a902ac9d86dd28a&amp;type=3#5&apos;); width: 20%; height: 40%;" />
+            </ui:VisualElement>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

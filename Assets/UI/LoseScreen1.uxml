@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="rootElement" style="bottom: auto; top: 30%;">
+        <ui:Label text="Lose" display-tooltip-when-elided="true" style="font-size: 62px; align-items: stretch; left: auto; -unity-text-align: upper-center;" />
+        <ui:VisualElement name="endData" style="top: auto; -unity-text-align: upper-center;">
+            <ui:Label text="Coins: 50" display-tooltip-when-elided="true" name="Coins" style="height: auto; font-size: 48px; align-items: stretch; left: auto;" />
+            <ui:Label text="Humans left: 10" display-tooltip-when-elided="true" name="Humans" style="font-size: 48px; left: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="buttons" style="flex-direction: row; flex-wrap: nowrap; justify-content: space-around;">
+            <ui:Button text="restart" display-tooltip-when-elided="true" name="Restart" style="font-size: 36px;" />
+            <ui:Button text="home" display-tooltip-when-elided="true" name="Home" style="font-size: 36px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

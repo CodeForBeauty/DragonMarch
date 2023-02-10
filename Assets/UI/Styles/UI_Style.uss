@@ -1,0 +1,53 @@
+.Button {
+    font-size: 400%;
+    background-image: url('project://database/Assets/UI/images/mainMenu/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203.png?fileID=2800000&guid=32f640d10ff1bc04ebcdd2e592ffe5cd&type=3#Ресурс 3');
+    width: 100%;
+    height: 30%;
+    background-color: rgba(88, 88, 88, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.Button:active {
+    font-size: 38px;
+    background-image: url('project://database/Assets/UI/images/mainMenu/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203.png?fileID=2800000&guid=32f640d10ff1bc04ebcdd2e592ffe5cd&type=3#Ресурс 3');
+    width: 100%;
+    height: 30%;
+    background-color: rgba(88, 88, 88, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(180, 180, 180);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.Button:disabled {
+    font-size: 38px;
+    background-image: url('project://database/Assets/UI/images/mainMenu/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203.png?fileID=2800000&guid=32f640d10ff1bc04ebcdd2e592ffe5cd&type=3#Ресурс 3');
+    width: 100%;
+    height: 30%;
+    background-color: rgba(88, 88, 88, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(132, 132, 132);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.another {
+}
+
+.unity-scroll-view__content-container {
+    height: 100%;
+    align-items: center;
+}
+
+.unity-scroll-view__vertical-scroller {
+    opacity: 0;
+}

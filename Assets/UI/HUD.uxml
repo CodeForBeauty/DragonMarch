@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/UI_Style.uss?fileID=7433441132597879392&amp;guid=b97e68543804d6345a40e5b7d4541c03&amp;type=3#UI_Style" />
+    <ui:VisualElement style="bottom: auto; top: 3%;">
+        <ui:VisualElement name="UpperBar" style="justify-content: space-around; align-items: center; flex-direction: row; height: 300%;">
+            <ui:Button display-tooltip-when-elided="true" name="Pause" class="Button" style="-unity-text-align: middle-center; font-size: 28px; background-image: url(&apos;project://database/Assets/UI/images/all/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%2012.png?fileID=2800000&amp;guid=ad5b15719e4e2e2449102479c807d1e9&amp;type=3#Ресурс 12&apos;); -unity-background-scale-mode: scale-to-fit; width: 13%; height: 100%; background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); right: 5%;" />
+            <ui:Label text="50" name="Coins" style="font-size: 48px; width: 10%; height: 80%; align-items: center; justify-content: flex-end; -unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); color: rgb(255, 240, 30); left: 2%;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI/images/WinLoseScreen/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201.png?fileID=2800000&amp;guid=9549a349dbfee104ea9e137693321340&amp;type=3#Ресурс 1&apos;); width: 90%; height: 90%; -unity-background-scale-mode: scale-to-fit; right: 70px;" />
+            </ui:Label>
+            <ui:Label text="10" display-tooltip-when-elided="true" name="Humans" enable-rich-text="true" style="font-size: 48px; white-space: nowrap; width: 10%; height: 80%; -unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); color: rgb(146, 148, 255); left: 7.5%;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI/images/all/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%2013.png?fileID=2800000&amp;guid=9cc1e57360d8c3046963bdf52d862d6c&amp;type=3#Ресурс 13&apos;); width: 100%; height: 100%; -unity-background-scale-mode: scale-to-fit; right: 90%;" />
+            </ui:Label>
+            <ui:Label text="1:00" display-tooltip-when-elided="true" name="Timer" style="flex-direction: row; flex-wrap: nowrap; justify-content: space-around; font-size: 56px; color: rgb(255, 255, 255); -unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); left: 3%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,54 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/UI_Style.uss?fileID=7433441132597879392&amp;guid=b97e68543804d6345a40e5b7d4541c03&amp;type=3#UI_Style" />
+    <Style src="project://database/Assets/UI/Styles/Basic.uss?fileID=7433441132597879392&amp;guid=987c26302683c644a94d1203071369ad&amp;type=3#Basic" />
+    <ui:VisualElement name="RootElement" focusable="true" style="top: auto; background-image: url(&apos;project://database/Assets/UI/images/shop/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%207.png?fileID=2800000&amp;guid=c932ae77a1de836428de6c37b264913a&amp;type=3#Ресурс 7&apos;); -unity-background-scale-mode: stretch-to-fill; width: 100%; height: 100%; background-color: rgb(85, 0, 2); -unity-slice-left: 0; overflow: visible; opacity: 1; align-items: center; justify-content: center; -unity-background-image-tint-color: rgb(255, 255, 255); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; scale: 1 1.015;">
+        <ui:VisualElement name="top" style="width: 85%; height: 7.5%; bottom: 1.7%; flex-direction: row;">
+            <ui:Button display-tooltip-when-elided="true" name="back" class="Button" style="width: 40%; background-image: url(&apos;project://database/Assets/UI/images/shop/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203.png?fileID=2800000&amp;guid=710883237257ce34e931c3eb6f90559c&amp;type=3#Ресурс 3&apos;); height: 100%; -unity-background-scale-mode: stretch-to-fill;" />
+            <ui:VisualElement name="cristalsBox" style="flex-direction: row; width: 40%; left: 20%; background-image: url(&apos;project://database/Assets/UI/images/shop/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%204.png?fileID=2800000&amp;guid=ff88bdce56faccf4cbf8cd57a71dd4df&amp;type=3#Ресурс 4&apos;); justify-content: space-around; -unity-background-scale-mode: stretch-to-fill;">
+                <ui:Label text="0" display-tooltip-when-elided="true" name="cristals" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); font-size: 70%; color: rgb(255, 255, 255); left: auto; bottom: 5%; right: 18%; -unity-text-align: middle-left;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="skins" style="width: 85%; height: 75%; top: 3%; justify-content: space-around;">
+            <ui:VisualElement name="skin1" style="flex-direction: row; width: 100%; height: 20%;">
+                <ui:VisualElement name="preview" style="background-image: url(&apos;project://database/Assets/UI/images/shop/1.png?fileID=2800000&amp;guid=e605ff7d9504353468fb21cef89f66fc&amp;type=3#1&apos;); width: 65%; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="buttons" style="width: 25%; left: 5%;">
+                    <ui:VisualElement name="price" style="flex-direction: row; width: auto; height: 40%; left: 20%; align-items: center;">
+                        <ui:Label text="5" display-tooltip-when-elided="true" name="priceText" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); font-size: 60%; color: rgb(255, 255, 255); -unity-text-align: middle-left; bottom: 6%;" />
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI/images/shop/3.png?fileID=2800000&amp;guid=5cf3dde2f2ff729448a13e28d7728d7d&amp;type=3#3&apos;); width: 40%; height: 90%; -unity-background-scale-mode: stretch-to-fill;" />
+                    </ui:VisualElement>
+                    <ui:Button display-tooltip-when-elided="true" name="buy" class="Button" style="background-image: url(&apos;project://database/Assets/UI/images/shop/2.png?fileID=2800000&amp;guid=e18c3b593515b7e45965bb2d812da3e1&amp;type=3#2&apos;); width: 100%; height: 60%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="skin2" style="flex-direction: row; width: 100%; height: 20%;">
+                <ui:VisualElement name="preview" style="background-image: url(&apos;project://database/Assets/UI/images/shop/1.png?fileID=2800000&amp;guid=e605ff7d9504353468fb21cef89f66fc&amp;type=3#1&apos;); width: 65%; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="buttons" style="width: 25%; left: 5%;">
+                    <ui:VisualElement name="price" style="flex-direction: row; width: auto; height: 40%; left: 20%; align-items: center;">
+                        <ui:Label text="5" display-tooltip-when-elided="true" name="priceText" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); font-size: 60%; color: rgb(255, 255, 255); -unity-text-align: middle-left; bottom: 6%;" />
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI/images/shop/3.png?fileID=2800000&amp;guid=5cf3dde2f2ff729448a13e28d7728d7d&amp;type=3#3&apos;); width: 40%; height: 90%; -unity-background-scale-mode: stretch-to-fill;" />
+                    </ui:VisualElement>
+                    <ui:Button display-tooltip-when-elided="true" name="buy" class="Button" style="background-image: url(&apos;project://database/Assets/UI/images/shop/2.png?fileID=2800000&amp;guid=e18c3b593515b7e45965bb2d812da3e1&amp;type=3#2&apos;); width: 100%; height: 60%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="skin3" style="flex-direction: row; width: 100%; height: 20%;">
+                <ui:VisualElement name="preview" style="background-image: url(&apos;project://database/Assets/UI/images/shop/1.png?fileID=2800000&amp;guid=e605ff7d9504353468fb21cef89f66fc&amp;type=3#1&apos;); width: 65%; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="buttons" style="width: 25%; left: 5%;">
+                    <ui:VisualElement name="price" style="flex-direction: row; width: auto; height: 40%; left: 20%; align-items: center;">
+                        <ui:Label text="5" display-tooltip-when-elided="true" name="priceText" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); font-size: 60%; color: rgb(255, 255, 255); -unity-text-align: middle-left; bottom: 6%;" />
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI/images/shop/3.png?fileID=2800000&amp;guid=5cf3dde2f2ff729448a13e28d7728d7d&amp;type=3#3&apos;); width: 40%; height: 90%; -unity-background-scale-mode: stretch-to-fill;" />
+                    </ui:VisualElement>
+                    <ui:Button display-tooltip-when-elided="true" name="buy" class="Button" style="background-image: url(&apos;project://database/Assets/UI/images/shop/2.png?fileID=2800000&amp;guid=e18c3b593515b7e45965bb2d812da3e1&amp;type=3#2&apos;); width: 100%; height: 60%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="skin4" style="flex-direction: row; width: 100%; height: 20%;">
+                <ui:VisualElement name="preview" style="background-image: url(&apos;project://database/Assets/UI/images/shop/1.png?fileID=2800000&amp;guid=e605ff7d9504353468fb21cef89f66fc&amp;type=3#1&apos;); width: 65%; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="buttons" style="width: 25%; left: 5%;">
+                    <ui:VisualElement name="price" style="flex-direction: row; width: auto; height: 40%; left: 20%; align-items: center;">
+                        <ui:Label text="5" display-tooltip-when-elided="true" name="priceText" style="-unity-font-definition: url(&apos;project://database/Assets/UI/fonts/Berlin%20Sans%20FB%20Demi%20Bold%20SDF.asset?fileID=11400000&amp;guid=44d1bcdf4eb34f64bbf3d5bac52dc86d&amp;type=2#Berlin Sans FB Demi Bold SDF&apos;); font-size: 60%; color: rgb(255, 255, 255); -unity-text-align: middle-left; bottom: 6%;" />
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI/images/shop/3.png?fileID=2800000&amp;guid=5cf3dde2f2ff729448a13e28d7728d7d&amp;type=3#3&apos;); width: 40%; height: 90%; -unity-background-scale-mode: stretch-to-fill;" />
+                    </ui:VisualElement>
+                    <ui:Button display-tooltip-when-elided="true" name="buy" class="Button" style="background-image: url(&apos;project://database/Assets/UI/images/shop/2.png?fileID=2800000&amp;guid=e18c3b593515b7e45965bb2d812da3e1&amp;type=3#2&apos;); width: 100%; height: 60%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
